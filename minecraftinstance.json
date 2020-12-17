@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "0001-01-01T00:00:00",
+  "lastPlayed": "2020-12-17T23:25:13.6568465Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -68,96 +68,6 @@
   "preferenceShowAddOnInfo": true,
   "installDate": "2020-12-17T22:45:52.0114651Z",
   "installedAddons": [
-    {
-      "addonID": 220318,
-      "gameInstanceID": "c7568695-a95d-4433-9cf4-448f0c139f7b",
-      "installedFile": {
-        "id": 2453873,
-        "displayName": "BiomesOPlenty-1.12-7.0.0.2291-universal.jar",
-        "fileName": "BiomesOPlenty-1.12-7.0.0.2291-universal.jar",
-        "fileDate": "2017-07-21T08:02:50.237Z",
-        "fileLength": 4907532,
-        "releaseType": 2,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2453/873/BiomesOPlenty-1.12-7.0.0.2291-universal.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3184735856,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "biomesoplenty",
-            "fingerprint": 445112585,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3305096539,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 2232695820,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 2585792492,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "LICENSE.txt",
-            "fingerprint": 2878218662,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "version.properties",
-            "fingerprint": 2147805403,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 3513145751,
-        "gameVersion": [
-          "1.12",
-          "1.12.1"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "BiomesOPlenty-1.12-7.0.0.2291-universal.jar"
-      },
-      "dateInstalled": "2020-12-17T22:47:28.4465203Z",
-      "dateUpdated": "2020-12-17T22:47:28.4614816Z",
-      "dateLastUpdateAttempted": "2020-12-17T22:47:28.4614816Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
     {
       "addonID": 32274,
       "gameInstanceID": "c7568695-a95d-4433-9cf4-448f0c139f7b",
@@ -266,6 +176,85 @@
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
       "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 76544,
+      "gameInstanceID": "c7568695-a95d-4433-9cf4-448f0c139f7b",
+      "installedFile": {
+        "id": 2497541,
+        "displayName": "GeographiCraft-1.12-0.8.9b.jar",
+        "fileName": "GeographiCraft-1.12-0.8.9b.jar",
+        "fileDate": "2017-11-05T18:36:36.937Z",
+        "fileLength": 402774,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2497/541/GeographiCraft-1.12-0.8.9b.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "api",
+            "fingerprint": 2801823682,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "climateControl",
+            "fingerprint": 1582245004,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2131782996,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 192310991,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 42317994,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "GeographiCraft-1.12-0.8.9b.jar"
+      },
+      "dateInstalled": "2020-12-17T22:47:34.5177869Z",
+      "dateUpdated": "2020-12-17T22:47:34.5207748Z",
+      "dateLastUpdateAttempted": "2020-12-17T22:47:34.5207748Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -517,73 +506,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 237701,
-      "gameInstanceID": "c7568695-a95d-4433-9cf4-448f0c139f7b",
-      "installedFile": {
-        "id": 2560638,
-        "displayName": "ReAuth-3.6.0 1.12",
-        "fileName": "reauth-3.6.0.jar",
-        "fileDate": "2018-05-10T19:37:49.493Z",
-        "fileLength": 30446,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2560/638/reauth-3.6.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1007001011,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "technicianlp",
-            "fingerprint": 982598060,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 1933681648,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 1809264525,
-        "gameVersion": [
-          "1.12",
-          "1.12.1",
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "reauth-3.6.0.jar"
-      },
-      "dateInstalled": "2020-12-17T22:17:32.8217784Z",
-      "dateUpdated": "2020-12-17T22:17:32.8237733Z",
-      "dateLastUpdateAttempted": "2020-12-17T22:17:32.8237733Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": true,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 253449,
       "gameInstanceID": "c7568695-a95d-4433-9cf4-448f0c139f7b",
       "installedFile": {
@@ -651,6 +573,73 @@
       "dateInstalled": "2020-12-17T22:17:52.6092507Z",
       "dateUpdated": "2020-12-17T22:17:52.6112319Z",
       "dateLastUpdateAttempted": "2020-12-17T22:17:52.6112319Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 237701,
+      "gameInstanceID": "c7568695-a95d-4433-9cf4-448f0c139f7b",
+      "installedFile": {
+        "id": 2560638,
+        "displayName": "ReAuth-3.6.0 1.12",
+        "fileName": "reauth-3.6.0.jar",
+        "fileDate": "2018-05-10T19:37:49.493Z",
+        "fileLength": 30446,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2560/638/reauth-3.6.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1007001011,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "technicianlp",
+            "fingerprint": 982598060,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1933681648,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1809264525,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "reauth-3.6.0.jar"
+      },
+      "dateInstalled": "2020-12-17T22:17:32.8217784Z",
+      "dateUpdated": "2020-12-17T22:17:32.8237733Z",
+      "dateLastUpdateAttempted": "2020-12-17T22:17:32.8237733Z",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,

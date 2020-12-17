@@ -1,0 +1,134 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 2020-12-17 18:25:51 EST
+Description: Initializing game
+
+java.lang.NullPointerException
+    at net.minecraftforge.fml.common.versioning.ComparableVersion.parseVersion(ComparableVersion.java:371)
+    at net.minecraftforge.fml.common.versioning.ComparableVersion.<init>(ComparableVersion.java:362)
+    at net.minecraftforge.fml.common.versioning.DefaultArtifactVersion.<init>(DefaultArtifactVersion.java:31)
+    at net.minecraftforge.fml.common.versioning.DefaultArtifactVersion.<init>(DefaultArtifactVersion.java:42)
+    at net.minecraftforge.fml.common.FMLModContainer.getProcessedVersion(FMLModContainer.java:628)
+    at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:235)
+    at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:547)
+    at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:227)
+    at net.minecraft.client.Minecraft.init(Minecraft.java:466)
+    at net.minecraft.client.Minecraft.run(Minecraft.java:3934)
+    at net.minecraft.client.main.Main.main(SourceFile:123)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:497)
+    at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+    at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+  Minecraft Version: 1.12
+  Operating System: Windows 10 (amd64) version 10.0
+  Java Version: 1.8.0_51, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 500739760 bytes (477 MB) / 1237843968 bytes (1180 MB) up to 6920077312 bytes (6599 MB)
+  JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx7424m -Xms256m -XX:PermSize=256m
+  IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+  FML: MCP 9.40 Powered by Forge 14.21.1.2443 74 mods loaded, 74 mods active
+       States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+       Uminecraft{1.12} [Minecraft] (minecraft.jar) 
+       Umcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+       UFML{8.0.99.99} [Forge Mod Loader] (forge-1.12-14.21.1.2443.jar) 
+       Uforge{14.21.1.2443} [Minecraft Forge] (forge-1.12-14.21.1.2443.jar) 
+       Uopenmodscore{0.12.2} [OpenModsLib Core] (minecraft.jar) 
+       Uactuallyadditions{null} [Actually Additions] (ActuallyAdditions-1.12.2-r152.jar) 
+       Uakashictome{1.2-12} [Akashic Tome] (AkashicTome-1.2-12.jar) 
+       Uappleskin{1.0.9} [AppleSkin] (AppleSkin-mc1.12-1.0.9.jar) 
+       Uautoreglib{1.3-32} [AutoRegLib] (AutoRegLib-1.3-32.jar) 
+       Ubetterbuilderswands{0.11.1} [Better Builder's Wands] (BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar) 
+       Ubettercaves{1.12.2} [YUNG's Better Caves] (bettercaves-1.12.2-2.0.4.jar) 
+       Ubiomesoplenty{7.0.1.2441} [Biomes O' Plenty] (BiomesOPlenty-1.12.2-7.0.1.2441-universal.jar) 
+       Ubonsaitrees{1.1.4} [Bonsai Trees] (bonsaitrees-1.1.4-b170.jar) 
+       Ubookshelf{2.3.590} [Bookshelf] (Bookshelf-1.12.2-2.3.590.jar) 
+       Ucarryon{1.12.2} [Carry On] (CarryOn+MC1.12.2+v1.12.2.jar) 
+       Ucofhcore{4.6.6} [CoFH Core] (CoFHCore-1.12.2-4.6.6.1-universal.jar) 
+       Ucofhworld{1.4.0} [CoFH World] (CoFHWorld-1.12.2-1.4.0.1-universal.jar) 
+       Ucucumber{1.1.3} [Cucumber Library] (Cucumber-1.12.2-1.1.3.jar) 
+       Ucyclicmagic{null} [Cyclic] (Cyclic-1.12.2-1.20.8.jar) 
+       Udarkutils{1.8.230} [Dark Utilities] (DarkUtils-1.12.2-1.8.230.jar) 
+       Uenderio{5.2.66} [Ender IO] (EnderIO-1.12.2-5.2.66.jar) 
+       Uenderiobase{5.2.66} [Ender IO Base] (EnderIO-1.12.2-5.2.66.jar) 
+       Uenderioconduitsappliedenergistics{5.2.66} [Ender IO Applied Energistics Conduits] (EnderIO-1.12.2-5.2.66.jar) 
+       Uenderioconduitsopencomputers{5.2.66} [Ender IO Open Computers Conduits] (EnderIO-1.12.2-5.2.66.jar) 
+       Uenderioconduitsrefinedstorage{5.2.66} [Ender IO Refined Storage Conduits] (EnderIO-1.12.2-5.2.66.jar) 
+       Uenderioconduits{5.2.66} [Ender IO Conduits] (EnderIO-1.12.2-5.2.66.jar) 
+       Uenderiointegrationforestry{5.2.66} [Ender IO Integration with Forestry] (EnderIO-1.12.2-5.2.66.jar) 
+       Uenderiointegrationtic{5.2.66} [Ender IO Integration with Tinkers' Construct] (EnderIO-1.12.2-5.2.66.jar) 
+       Uenderiointegrationticlate{5.2.66} [Ender IO Integration with Tinkers' Construct] (EnderIO-1.12.2-5.2.66.jar) 
+       Uenderioinvpanel{5.2.66} [Ender IO Inventory Panel] (EnderIO-1.12.2-5.2.66.jar) 
+       Uenderiomachines{5.2.66} [Ender IO Machines] (EnderIO-1.12.2-5.2.66.jar) 
+       Uenderiopowertools{5.2.66} [Ender IO Powertools] (EnderIO-1.12.2-5.2.66.jar) 
+       Uenderstorage{2.4.6.137} [EnderStorage] (EnderStorage-1.12.2-2.4.6.137-universal.jar) 
+       Ufastfurnace{1.3.1} [FastFurnace] (FastFurnace-1.12.2-1.3.1.jar) 
+       Ugeographicraft{0.8.7} [GeographiCraft] (GeographiCraft-1.12-0.8.9b.jar) 
+       Uwaila{1.8.24} [Waila] (Hwyla-1.8.24-B39_1.12.jar) 
+       Uindustrialforegoing{1.12.2-1.12.2} [Industrial Foregoing] (industrialforegoing-1.12.2-1.12.13-237.jar) 
+       Uironchest{1.12.2-7.0.67.844} [Iron Chest] (ironchest-1.12.2-7.0.72.847.jar) 
+       Ujei{4.7.8.95} [Just Enough Items] (jei_1.12.1-4.7.8.95.jar) 
+       Ujourneymap{1.12-5.5.2} [JourneyMap] (journeymap-1.12-5.5.2.jar) 
+       Umantle{1.12-1.3.3.55} [Mantle] (Mantle-1.12-1.3.3.55.jar) 
+       Umekanism{1.12.2-9.8.3.390} [Mekanism] (Mekanism-1.12.2-9.8.3.390.jar) 
+       Uminestuck{1.12.2-1.4.300} [Minestuck] (Minestuck-1.12.2-1.4.300.jar) 
+       Uminestuckarsenal{3.0.0} [Minestuck Arsenal] (minestuckarsenal-1.12-1.8.1.jar) 
+       Uminestuckuniverse{1.2.3} [Minestuck Universe] (MinestuckUniverse-1.2.3.jar) 
+       Umysticalagradditions{1.3.2} [Mystical Agradditions] (MysticalAgradditions-1.12.2-1.3.2.jar) 
+       Umysticalagriculture{1.7.5} [Mystical Agriculture] (MysticalAgriculture-1.12.2-1.7.5.jar) 
+       Unorecipebook{1.2.1} [No Recipe Book] (noRecipeBook_v1.2.2formc1.12.2.jar) 
+       Uopenblocks{null} [OpenBlocks] (OpenBlocks-1.12.2-1.8.1.jar) 
+       Uopenmods{null} [OpenModsLib] (OpenModsLib-1.12.2-0.12.2.jar) 
+       Uharvestcraft{1.12.2a} [Pam's HarvestCraft] (Pam's HarvestCraft 1.12.2a.jar) 
+       Uprojecte{1.12.2-PE1.4.1} [ProjectE] (ProjectE-1.12.2-PE1.4.1.jar) 
+       Upsi{r1.1-78} [Psi] (Psi-r1.1-78.2.jar) 
+       Uquark{r1.6-179} [Quark] (Quark-r1.6-179.jar) 
+       Ureauth{3.6.0} [ReAuth] (reauth-3.6.0.jar) 
+       Urockhounding_core{3.22} [Rockhounding Mod: Core] (rockhounding_core-1.12.2-3.22.jar) 
+       Urockhounding_rocks{1.12.2-3.20} [Rockhounding: Rocks] (rockhounding_rocks-1.12.2-3.20.jar) 
+       Urtg{null} [Realistic Terrain Generation] (RTG-1.12.2-6.1.0.0-snapshot.1.jar) 
+       Utconstruct{1.12-2.8.0.45} [Tinkers' Construct] (TConstruct-1.12-2.8.0.45.jar) 
+       Uteslacorelib{1.0.17} [Tesla Core Lib] (tesla-core-lib-1.12.2-1.0.17.jar) 
+       Uteslacorelib_registries{1.0.17} [Tesla Core Lib Registries] (tesla-core-lib-1.12.2-1.0.17.jar) 
+       Uthermaldynamics{2.5.6} [Thermal Dynamics] (ThermalDynamics-1.12.2-2.5.6.1-universal.jar) 
+       Uthermalexpansion{5.5.7} [Thermal Expansion] (ThermalExpansion-1.12.2-5.5.7.1-universal.jar) 
+       Uthermalfoundation{2.6.7} [Thermal Foundation] (ThermalFoundation-1.12.2-2.6.7.1-universal.jar) 
+       Uthermalinnovation{0.3.6} [Thermal Innovation] (ThermalInnovation-1.12.2-0.3.6.1-universal.jar) 
+       Utinkertoolleveling{1.12.2-1.1.0.DEV.b23e769} [Tinkers Tool Leveling] (TinkerToolLeveling-1.12.2-1.1.0.jar) 
+       Utorchmaster{1.8.1.81} [TorchMaster] (torchmaster_1.12.2-1.8.1.81.jar) 
+       Utrumpetskeleton{1.12-1.0.2.1} [Trumpet Skeleton] (trumpetskeleton-1.12-1.0.2.1 (1).jar) 
+       Utwilightforest{3.11.1021} [The Twilight Forest] (twilightforest-1.12.2-3.11.1021-universal.jar) 
+       Uunidict{1.12.2-3.0.2} [UniDict] (UniDict-1.12.2-3.0.2.jar) 
+       Uvanillafix{1.0.10-150} [VanillaFix] (VanillaFix-1.0.10-150.jar) 
+       Uwailaharvestability{1.1.12} [Waila Harvestability] (WailaHarvestability-mc1.12-1.1.12.jar) 
+       Uwalljump{1.12.2-1.2.3} [Wall-Jump!] (walljump-1.12.2-1.2.3 (1).jar) 
+       Uwaystones{4.0.72} [Waystones] (Waystones_1.12.2-4.0.72.jar)
+  Loaded coremods (and transformers): MekanismCoremod (Mekanism-1.12.2-9.8.3.390.jar)
+                                        mekanism.coremod.KeybindingMigrationHelper
+                                      OpenModsCorePlugin (OpenModsLib-1.12.2-0.12.2.jar)
+                                        openmods.core.OpenModsClassTransformer
+  GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 432.00' Renderer: 'GeForce GTX 1050 Ti/PCIe/SSE2'
+  Suspected Mods: Unknown
+  Launched Version: forge-14.21.1.2443
+  LWJGL: 2.9.4
+  OpenGL: GeForce GTX 1050 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 432.00, NVIDIA Corporation
+  GL Caps: Using GL 1.3 multitexturing.
+           Using GL 1.3 texture combiners.
+           Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+           Shaders are available because OpenGL 2.1 is supported.
+           VBOs are available because OpenGL 1.5 is supported.
+  Using VBOs: Yes
+  Is Modded: Definitely; Client brand changed to 'fml,forge'
+  Type: Client (map_client.txt)
+  Resource Packs: 
+  Current Language: English (US)
+  Profiler Position: N/A (disabled)
+  CPU: 4x Intel(R) Core(TM) i5-6400 CPU @ 2.70GHz

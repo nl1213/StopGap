@@ -39,7 +39,7 @@
   "modpackOverrides": null,
   "isMemoryOverride": false,
   "allocatedMemory": 7424,
-  "guid": "50b7875d-3199-434b-a2f3-ae58998ca2ca",
+  "guid": "c7568695-a95d-4433-9cf4-448f0c139f7b",
   "gameTypeID": 432,
   "installPath": "C:\\Users\\Nick\\Twitch\\Minecraft\\Instances\\StopGap\\",
   "name": "StopGap",
@@ -66,11 +66,101 @@
     "LastSyncDate": "0001-01-01T00:00:00"
   },
   "preferenceShowAddOnInfo": true,
-  "installDate": "2020-12-17T21:48:52.2935738Z",
+  "installDate": "2020-12-17T22:45:52.0114651Z",
   "installedAddons": [
     {
+      "addonID": 220318,
+      "gameInstanceID": "c7568695-a95d-4433-9cf4-448f0c139f7b",
+      "installedFile": {
+        "id": 2453873,
+        "displayName": "BiomesOPlenty-1.12-7.0.0.2291-universal.jar",
+        "fileName": "BiomesOPlenty-1.12-7.0.0.2291-universal.jar",
+        "fileDate": "2017-07-21T08:02:50.237Z",
+        "fileLength": 4907532,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2453/873/BiomesOPlenty-1.12-7.0.0.2291-universal.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3184735856,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "biomesoplenty",
+            "fingerprint": 445112585,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3305096539,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2232695820,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2585792492,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "LICENSE.txt",
+            "fingerprint": 2878218662,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "version.properties",
+            "fingerprint": 2147805403,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 3513145751,
+        "gameVersion": [
+          "1.12",
+          "1.12.1"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "BiomesOPlenty-1.12-7.0.0.2291-universal.jar"
+      },
+      "dateInstalled": "2020-12-17T22:47:28.4465203Z",
+      "dateUpdated": "2020-12-17T22:47:28.4614816Z",
+      "dateLastUpdateAttempted": "2020-12-17T22:47:28.4614816Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 32274,
-      "gameInstanceID": "50b7875d-3199-434b-a2f3-ae58998ca2ca",
+      "gameInstanceID": "c7568695-a95d-4433-9cf4-448f0c139f7b",
       "installedFile": {
         "id": 2498305,
         "displayName": "journeymap-1.12-5.5.2",
@@ -175,7 +265,7 @@
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": false,
+      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -184,7 +274,7 @@
     },
     {
       "addonID": 74072,
-      "gameInstanceID": "50b7875d-3199-434b-a2f3-ae58998ca2ca",
+      "gameInstanceID": "c7568695-a95d-4433-9cf4-448f0c139f7b",
       "installedFile": {
         "id": 2507737,
         "displayName": "TConstruct-1.12-2.8.0.45.jar",
@@ -267,7 +357,7 @@
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": false,
+      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -276,7 +366,7 @@
     },
     {
       "addonID": 340583,
-      "gameInstanceID": "50b7875d-3199-434b-a2f3-ae58998ca2ca",
+      "gameInstanceID": "c7568695-a95d-4433-9cf4-448f0c139f7b",
       "installedFile": {
         "id": 3003242,
         "displayName": "bettercaves-1.12.2-2.0.4.jar",
@@ -340,7 +430,7 @@
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": false,
+      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -349,7 +439,7 @@
     },
     {
       "addonID": 238222,
-      "gameInstanceID": "50b7875d-3199-434b-a2f3-ae58998ca2ca",
+      "gameInstanceID": "c7568695-a95d-4433-9cf4-448f0c139f7b",
       "installedFile": {
         "id": 2478647,
         "displayName": "jei_1.12.1-4.7.8.95.jar",
@@ -419,7 +509,74 @@
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": false,
+      "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 237701,
+      "gameInstanceID": "c7568695-a95d-4433-9cf4-448f0c139f7b",
+      "installedFile": {
+        "id": 2560638,
+        "displayName": "ReAuth-3.6.0 1.12",
+        "fileName": "reauth-3.6.0.jar",
+        "fileDate": "2018-05-10T19:37:49.493Z",
+        "fileLength": 30446,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2560/638/reauth-3.6.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1007001011,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "technicianlp",
+            "fingerprint": 982598060,
+            "type": 0,
+            "invalidFingerprint": false
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1933681648,
+            "type": 0,
+            "invalidFingerprint": false
+          }
+        ],
+        "packageFingerprint": 1809264525,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "reauth-3.6.0.jar"
+      },
+      "dateInstalled": "2020-12-17T22:17:32.8217784Z",
+      "dateUpdated": "2020-12-17T22:17:32.8237733Z",
+      "dateLastUpdateAttempted": "2020-12-17T22:17:32.8237733Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": null,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -428,7 +585,7 @@
     },
     {
       "addonID": 253449,
-      "gameInstanceID": "50b7875d-3199-434b-a2f3-ae58998ca2ca",
+      "gameInstanceID": "c7568695-a95d-4433-9cf4-448f0c139f7b",
       "installedFile": {
         "id": 2542548,
         "displayName": "Hwyla-1.8.24-B39_1.12.jar",
@@ -498,74 +655,7 @@
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 237701,
-      "gameInstanceID": "50b7875d-3199-434b-a2f3-ae58998ca2ca",
-      "installedFile": {
-        "id": 2560638,
-        "displayName": "ReAuth-3.6.0 1.12",
-        "fileName": "reauth-3.6.0.jar",
-        "fileDate": "2018-05-10T19:37:49.493Z",
-        "fileLength": 30446,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2560/638/reauth-3.6.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1007001011,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "technicianlp",
-            "fingerprint": 982598060,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 1933681648,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 1809264525,
-        "gameVersion": [
-          "1.12",
-          "1.12.1",
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "reauth-3.6.0.jar"
-      },
-      "dateInstalled": "2020-12-17T22:17:32.8217784Z",
-      "dateUpdated": "2020-12-17T22:17:32.8237733Z",
-      "dateLastUpdateAttempted": "2020-12-17T22:17:32.8237733Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
+      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -574,7 +664,7 @@
     },
     {
       "addonID": 74924,
-      "gameInstanceID": "50b7875d-3199-434b-a2f3-ae58998ca2ca",
+      "gameInstanceID": "c7568695-a95d-4433-9cf4-448f0c139f7b",
       "installedFile": {
         "id": 2713386,
         "displayName": "Mantle-1.12-1.3.3.55.jar",
@@ -643,7 +733,7 @@
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": false,
+      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
